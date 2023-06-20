@@ -1,0 +1,61 @@
+/* Common color theme */
+body {
+  background-color: #1f2124;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #25282b;
+}
+
+.jumbotron {
+  background-color: #333;
+  color: #fff;
+}
+
+.team-member {
+  background-color: #25282b;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  background-color: #25282b;
+  padding: 50px 0;
+}
+
+/* Custom transitions and animations */
+.hero-content {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.hero-content.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.team-member {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.team-member.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #f8f8f8;
+  color: #333;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #eee;
+}
